@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COBRA FX — Forex Hub | Trade · Learn · Grow</title>
+  <link rel="icon" type="image/png" href="logo-sm.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img src="logo-sm.png" alt="COBRA FX" class="logo-img" />
+        <span class="logo-text">COBRA <span class="fx">FX</span></span>
+      </a>
+      <nav class="nav">
+        <a href="#markets">Markets</a>
+        <a href="#why">Why Us</a>
+        <a href="#how">How It Works</a>
+        <a href="#testimonials">Reviews</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn-outline" data-open="login-modal">Log in</button>
+        <button class="btn-primary" data-open="signup-modal">Get Started</button>
+      </div>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="#markets">Markets</a>
+    <a href="#why">Why Us</a>
+    <a href="#how">How It Works</a>
+    <a href="#testimonials">Reviews</a>
+    <button class="btn-outline" data-open="login-modal" style="width:100%;margin-top:8px">Log in</button>
+    <button class="btn-primary" data-open="signup-modal" style="width:100%">Get Started</button>
+  </div>
+
+  <section class="hero">
+    <div class="container">
+      <div class="live-badge"><span class="live-dot"></span> Live trading — 1M+ active traders</div>
+      <h1>Trade Smarter.<br /><span class="gradient-text">Profit Faster.</span></h1>
+      <p class="hero-sub">Access 100+ global markets with lightning-fast execution, institutional-grade tools, and payouts up to 950%. Start with just $10.</p>
+      <div class="hero-ctas">
+        <button class="btn-primary btn-lg" data-open="signup-modal">Start Trading Now →</button>
+        <button class="btn-outline btn-lg" data-open="demo-modal">▶ Try Free Demo</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-value">$1</span><span class="stat-label">Min. Deposit</span></div>
+        <div class="stat"><span class="stat-value">$0.10</span><span class="stat-label">Min. Trade</span></div>
+        <div class="stat"><span class="stat-value highlight">950%</span><span class="stat-label">Max. Payout</span></div>
+        <div class="stat"><span class="stat-value">&lt;1s</span><span class="stat-label">Execution</span></div>
+      </div>
+      <div class="tickers">
+        <div class="ticker"><span class="ticker-icon aapl">A</span><div><div class="ticker-name">AAPL</div><div class="ticker-price">$178.32</div></div><span class="change down">-0.45%</span></div>
+        <div class="ticker"><span class="ticker-icon tsla">T</span><div><div class="ticker-name">TSLA</div><div class="ticker-price">$248.90</div></div><span class="change up">+3.21%</span></div>
+        <div class="ticker"><span class="ticker-icon xau">Au</span><div><div class="ticker-name">XAU/USD</div><div class="ticker-price">$2,024.15</div></div><span class="change up">+0.85%</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-label">WHY COBRA FX</div>
+      <h2>Built for serious traders</h2>
+      <div class="features-grid">
+        <div class="feature-card"><div class="feature-icon orange">⚡</div><h3>Lightning Execution</h3><p>Sub-second trade execution powered by our global infrastructure</p></div>
+        <div class="feature-card"><div class="feature-icon teal">🛡</div><h3>Bank-Grade Security</h3><p>Your funds protected with enterprise encryption and cold storage</p></div>
+        <div class="feature-card"><div class="feature-icon purple">▣</div><h3>100+ Markets</h3><p>Forex, crypto, stocks, indices, and commodities — all in one place</p></div>
+        <div class="feature-card"><div class="feature-icon pink">💳</div><h3>Zero Fees</h3><p>No hidden charges on deposits, withdrawals, or account maintenance</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section markets-section" id="markets">
+    <div class="container">
+      <div class="section-label teal">MARKETS</div>
+      <h2>Trade global markets from<br />one account</h2>
+      <p class="section-sub">Access forex, cryptocurrencies, stocks, indices, and commodities — all with competitive spreads and instant execution.</p>
+      <div class="markets-features">
+        <div class="m-feature"><div class="m-icon">⏱</div><div><h4>Real-Time Prices</h4><p>Live market data with zero delay</p></div></div>
+        <div class="m-feature"><div class="m-icon">💳</div><div><h4>20+ Payment Methods</h4><p>Crypto, cards, bank transfer, e-wallets</p></div></div>
+        <div class="m-feature"><div class="m-icon">🏆</div><div><h4>Up to 950% Returns</h4><p>Industry-leading payout rates</p></div></div>
+        <div class="m-feature"><div class="m-icon">🎧</div><div><h4>24/7 Live Support</h4><p>Expert help whenever you need it</p></div></div>
+      </div>
+      <div class="trade-card">
+        <div class="trade-header">
+          <div class="trade-asset"><span class="btc-icon">₿</span><div><div class="asset-pair">BTC/USD</div><div class="asset-name">Bitcoin</div></div></div>
+          <div class="trade-price"><div class="price">$43,256.78</div><div class="change up">+2.34%</div></div>
+        </div>
+        <div class="chart-area">
+          <div class="live-tag"><span class="live-dot"></span> LIVE</div>
+          <svg viewBox="0 0 400 120" class="chart-svg" preserveAspectRatio="none">
+            <defs><linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#10b981" stop-opacity="0.4"/><stop offset="100%" stop-color="#10b981" stop-opacity="0"/></linearGradient></defs>
+            <path d="M0,100 C40,95 60,80 100,70 C140,60 160,75 200,50 C240,25 280,40 320,20 C360,5 380,15 400,10" fill="none" stroke="#10b981" stroke-width="2.5"/>
+            <path d="M0,100 C40,95 60,80 100,70 C140,60 160,75 200,50 C240,25 280,40 320,20 C360,5 380,15 400,10 L400,120 L0,120 Z" fill="url(#chartGrad)"/>
+          </svg>
+        </div>
+        <div class="trade-actions">
+          <button class="btn-up" data-open="trade-modal" data-direction="up">↗ UP <span>+95%</span></button>
+          <button class="btn-down" data-open="trade-modal" data-direction="down">↙ DOWN <span>+95%</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section-label purple">GETTING STARTED</div>
+      <h2>Three steps to your first trade</h2>
+      <div class="steps">
+        <div class="step"><div class="step-num">01</div><div class="step-icon">👥</div><h3>Create Account</h3><p>Sign up in 30 seconds. No lengthy forms, no ID required to start.</p></div>
+        <div class="step"><div class="step-num">02</div><div class="step-icon">◎</div><h3>Fund & Trade</h3><p>Deposit from $1 with 20+ payment methods. Pick an asset and direction.</p></div>
+        <div class="step"><div class="step-num">03</div><div class="step-icon">💰</div><h3>Collect Profits</h3><p>Withdraw anytime. Payouts processed within minutes, not days.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="big-stat"><div class="big-stat-icon">👥</div><div class="big-stat-value">1M+</div><div class="big-stat-label">Active Traders</div></div>
+      <div class="big-stat"><div class="big-stat-icon">📊</div><div class="big-stat-value">$50M+</div><div class="big-stat-label">Daily Volume</div></div>
+      <div class="big-stat"><div class="big-stat-icon">🌐</div><div class="big-stat-value">100+</div><div class="big-stat-label">Trading Assets</div></div>
+      <div class="big-stat"><div class="big-stat-icon">🎧</div><div class="big-stat-value">24/7</div><div class="big-stat-label">Live Support</div></div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-label gold">TESTIMONIALS</div>
+      <h2>Trusted by traders worldwide</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial"><div class="stars">★★★★★</div><p>"The execution speed is incredible. I switched from my old platform and never looked back."</p><div class="author"><div class="avatar">AM</div><div><div class="author-name">Alex M. 🇺🇸</div><div class="author-role">Day Trader</div></div></div></div>
+        <div class="testimonial"><div class="stars">★★★★★</div><p>"From crypto to forex, everything I need in one place. The charts are superb."</p><div class="author"><div class="avatar">SK</div><div><div class="author-name">Sarah K. 🇬🇧</div><div class="author-role">Forex Trader</div></div></div></div>
+        <div class="testimonial"><div class="stars">★★★★★</div><p>"Demo account helped me learn risk-free. Now I trade with real confidence."</p><div class="author"><div class="avatar">MR</div><div><div class="author-name">Mike R. 🇨🇦</div><div class="author-role">Beginner</div></div></div></div>
+        <div class="testimonial"><div class="stars">★★★★★</div><p>"BTC and ETH options with great payouts. This platform delivers."</p><div class="author"><div class="avatar">EL</div><div><div class="author-name">Emma L. 🇦🇺</div><div class="author-role">Crypto Trader</div></div></div></div>
+        <div class="testimonial"><div class="stars">★★★★★</div><p>"10 years trading and this is the best platform I have ever used."</p><div class="author"><div class="avatar">JW</div><div><div class="author-name">James W. 🇩🇪</div><div class="author-role">Professional</div></div></div></div>
+        <div class="testimonial"><div class="stars">★★★★★</div><p>"Perfect for spare-time trading. Clean mobile experience."</p><div class="author"><div class="avatar">LT</div><div><div class="author-name">Lisa T. 🇫🇷</div><div class="author-role">Part-time</div></div></div></div>
+      </div>
+      <div class="rating-summary"><span class="rating-score">4.9/5</span> from <strong>50,000+</strong> reviews</div>
+    </div>
+  </section>
+
+  <section class="section cta-section" id="cta">
+    <div class="container">
+      <div class="cta-card">
+        <img src="logo-sm.png" alt="" class="cta-logo" />
+        <h2>Ready to start trading?</h2>
+        <p>Join over 1 million traders. Create your free account in seconds and start with a risk-free demo.</p>
+        <button class="btn-primary btn-lg" data-open="signup-modal">Create Free Account →</button>
+        <button class="btn-ghost-lg" data-open="demo-modal">Try Demo</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <a href="#" class="logo"><img src="logo-sm.png" alt="COBRA FX" class="logo-img" /><span class="logo-text">COBRA <span class="fx">FX</span></span></a>
+        <p class="tagline">Trade · Learn · Grow</p>
+        <p>© 2026 COBRA FX Forex Hub. All rights reserved.</p>
+      </div>
+      <div class="footer-links"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Responsible Trading</a></div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="login-modal">
+    <div class="modal">
+      <button class="modal-close" data-close>&times;</button>
+      <div class="modal-header"><img src="logo-sm.png" alt="" class="modal-logo-img" /><h2>Welcome back</h2><p>Log in to your COBRA FX account</p></div>
+      <form id="login-form" class="modal-form">
+        <div class="form-group"><label for="login-email">Email</label><input type="email" id="login-email" name="email" placeholder="you@example.com" required autocomplete="email" /></div>
+        <div class="form-group"><label for="login-password">Password</label><div class="password-wrap"><input type="password" id="login-password" name="password" placeholder="••••••••" required minlength="6" autocomplete="current-password" /><button type="button" class="toggle-pw" data-toggle-pw>Show</button></div></div>
+        <div class="form-row"><label class="checkbox"><input type="checkbox" name="remember" /> Remember me</label><a href="#" class="forgot-link" data-open="forgot-modal" data-close>Forgot password?</a></div>
+        <button type="submit" class="btn-primary btn-full">Log In</button>
+        <p class="form-switch">Don't have an account? <a href="#" data-open="signup-modal" data-close>Sign up</a></p>
+      </form>
+      <div class="form-success" id="login-success" hidden><div class="success-icon">✓</div><h3>Welcome back!</h3><p>Redirecting to the trading hub…</p><button class="btn-primary btn-full" data-go-dashboard>Enter Trading Hub</button></div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="signup-modal">
+    <div class="modal">
+      <button class="modal-close" data-close>&times;</button>
+      <div class="modal-header"><img src="logo-sm.png" alt="" class="modal-logo-img" /><h2>Create your account</h2><p>Get started in seconds — no verification needed</p></div>
+      <form id="signup-form" class="modal-form">
+        <div class="form-group"><label for="signup-name">Full Name</label><input type="text" id="signup-name" name="name" placeholder="John Doe" required autocomplete="name" /></div>
+        <div class="form-group"><label for="signup-email">Email</label><input type="email" id="signup-email" name="email" placeholder="you@example.com" required autocomplete="email" /></div>
+        <div class="form-group"><label for="signup-password">Password</label><div class="password-wrap"><input type="password" id="signup-password" name="password" placeholder="Min. 6 characters" required minlength="6" autocomplete="new-password" /><button type="button" class="toggle-pw" data-toggle-pw>Show</button></div></div>
+        <div class="form-group"><label for="signup-confirm">Confirm Password</label><input type="password" id="signup-confirm" name="confirm" placeholder="Repeat password" required minlength="6" autocomplete="new-password" /></div>
+        <label class="checkbox"><input type="checkbox" name="terms" required /> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+        <button type="submit" class="btn-primary btn-full">Create Account</button>
+        <p class="form-switch">Already have an account? <a href="#" data-open="login-modal" data-close>Sign in</a></p>
+      </form>
+      <div class="form-success" id="signup-success" hidden><div class="success-icon">✓</div><h3>Account created!</h3><p>Welcome to COBRA FX Forex Hub.</p><button class="btn-primary btn-full" data-go-dashboard>Start Trading</button></div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="demo-modal">
+    <div class="modal">
+      <button class="modal-close" data-close>&times;</button>
+      <div class="modal-header"><img src="logo-sm.png" alt="" class="modal-logo-img" /><h2>Try Free Demo</h2><p>Practice with $10,000 virtual funds — no risk</p></div>
+      <form id="demo-form" class="modal-form">
+        <div class="form-group"><label for="demo-email">Email (optional)</label><input type="email" id="demo-email" name="email" placeholder="you@example.com" autocomplete="email" /></div>
+        <div class="form-group"><label for="demo-name">Display Name</label><input type="text" id="demo-name" name="name" placeholder="Trader" required /></div>
+        <button type="submit" class="btn-primary btn-full">Launch Demo Account</button>
+        <p class="form-switch">Want a real account? <a href="#" data-open="signup-modal" data-close>Sign up free</a></p>
+      </form>
+      <div class="form-success" id="demo-success" hidden><div class="success-icon">✓</div><h3>Demo ready!</h3><p>You have <strong>$10,000</strong> virtual balance.</p><button class="btn-primary btn-full" data-go-dashboard>Enter Demo Hub</button></div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="trade-modal">
+    <div class="modal">
+      <button class="modal-close" data-close>&times;</button>
+      <div class="modal-header"><img src="logo-sm.png" alt="" class="modal-logo-img" /><h2 id="trade-title">Place Trade</h2><p>BTC/USD · Payout +95%</p></div>
+      <form id="trade-form" class="modal-form">
+        <input type="hidden" id="trade-direction" name="direction" value="up" />
+        <div class="form-group"><label for="trade-amount">Trade Amount (USD)</label><input type="number" id="trade-amount" name="amount" min="1" step="0.01" required value="10" /></div>
+        <div class="form-group"><label for="trade-expiry">Expiry</label><select id="trade-expiry" name="expiry"><option value="60">1 minute</option><option value="300">5 minutes</option><option value="900">15 minutes</option><option value="3600">1 hour</option></select></div>
+        <div class="trade-summary"><div class="summary-row"><span>Direction</span><span id="summary-dir" class="up">UP ↗</span></div><div class="summary-row"><span>Potential Profit</span><span id="summary-profit">+$9.50</span></div></div>
+        <button type="submit" class="btn-primary btn-full">Confirm Trade</button>
+        <p class="form-hint"><a href="#" data-open="signup-modal" data-close>Sign up</a> or <a href="#" data-open="demo-modal" data-close>try demo</a> to trade.</p>
+      </form>
+      <div class="form-success" id="trade-success" hidden><div class="success-icon">✓</div><h3>Trade placed!</h3><p id="trade-success-msg"></p><button class="btn-primary btn-full" data-close>Done</button></div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="forgot-modal">
+    <div class="modal">
+      <button class="modal-close" data-close>&times;</button>
+      <div class="modal-header"><img src="logo-sm.png" alt="" class="modal-logo-img" /><h2>Reset password</h2><p>Enter your email and we'll send a reset link</p></div>
+      <form id="forgot-form" class="modal-form">
+        <div class="form-group"><label for="forgot-email">Email</label><input type="email" id="forgot-email" name="email" placeholder="you@example.com" required /></div>
+        <button type="submit" class="btn-primary btn-full">Send Reset Link</button>
+        <p class="form-switch"><a href="#" data-open="login-modal" data-close>← Back to login</a></p>
+      </form>
+      <div class="form-success" id="forgot-success" hidden><div class="success-icon">✓</div><h3>Check your inbox</h3><p>If an account exists, a reset link has been sent.</p><button class="btn-primary btn-full" data-close>OK</button></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+  <script src="script.js"></script>
+</body>
+</html>
